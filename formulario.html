@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="shortcut icon" href="IMG/icon.png" type="favicon">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body class="fondo-formulario">
+    <h2>Breaking Bad – Que comience el juego!</h2>
+
+    <form action="mailto:raul.rodriguez@proeducaglobal.com">
+      <fieldset>
+        <legend>Datos personales</legend>
+           <div class="formu"> 
+              <label for="Nombre">Nombres:</label>
+              <input type="text" placeholder="ana emilia " required>
+           </div>
+
+           <div class="formu"> 
+               <label for="Apellidos">Apellidos:</label>
+               <input type="text" placeholder="osso parra" required>
+           </div>
+
+           <div class="formu"> 
+               <label for="Dni">Dni:</label>
+               <input type="text" placeholder="aw4733377">
+            </div>
+
+            <div class="formu"> 
+                <label for="fecha de Nacimiento">Fecha de Nacimiento:</label>
+                <input type="date" placeholder="06/12/1998" >
+            </div>
+            
+      </fieldset>
+      <fieldset>
+         <legend>Informacion Adicional</legend>
+           <div class="formu">
+              <label for="email">E-mail:</label>
+              <input type="email" id="email" placeholder="cris@gmail.com" required>
+           </div>
+
+           <div class="formu">
+              <label for="Direccion Postal">Direccion Postal: </label>
+              <input type="text" placeholder="calle,numero,piso">
+           </div>
+
+           <div class="formu">
+              <label for="Codigo Postal">Codigo Postal: </label>
+              <input type="text" placeholder="4813El">
+           </div>
+
+           <div class="formu">
+              <label for="Ciudad">Ciudad: </label>
+              <input type="text" placeholder="madrid">
+           </div>
+
+           <div class="formu">
+              <label for="Sexo">Sexo: </label>
+              <input type="radio" name="sexo" value="Hombre">Hombre 
+              <input type="radio" name="sexo" value="Mujer">Mujer
+           </div>
+
+
+      </fieldset>
+ <fieldset>
+    <label for="personajes">Selecciona un personaje:</label>
+      <select id="personajes" name="personajes">
+        <option value="jessie">Jessie Pinkman</option>
+        <option value="walter">Walter White</option>
+        <option value="saul">Saul Goodman</option>
+        <option value="gustavo">Gustavo Fring</option>
+        <option value="pollos">Pollos Hermanos</option>
+        <option value="otros">Otros personajes</option>
+      </select>
+</fieldset>
+    <div>
+      <label for="comentarios"></label>
+      <textarea id="comentarios" name="mensaje" rows="2">Escribe lo que quieras</textarea>
+    </div>
+    <div>
+      <button><input type="reset" value="borrar"></button>
+      <button><input type="submit" value="enviar" class="enviar" ></button>
+    <button><input type="file" value="adjuntar archivo" accept=".pdf"></button>
+    </div>
+</form>   
+</body>
+</html>
+
+
+
+    

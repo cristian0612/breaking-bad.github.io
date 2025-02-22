@@ -1,0 +1,354 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+.fondo-formulario{
+    background-color: #0c3e11;
+    color: white;
+}
+.fondo-index{
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.fondo-tabla{
+    background-color: #054f0d; 
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* index*/
+
+#logo {
+    
+    width: 200px;
+    height: 200px;
+    margin-top: 12px;
+    text-align: center;
+}
+.frase {
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+.poster{
+    
+    text-align: center;
+    margin-right: 20px 0;
+}
+.imagen{
+    border: 10px outset brown;
+    border-radius: 22px ;
+    width: 700px;
+    height: 300px;
+}
+.fondo img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+}
+h2 {
+    font-size: 14px; /* Tamaño grande */
+}
+p{
+    font-size: 12px;}
+
+/* Formulario*/
+
+.campo {
+    display: block;
+}
+.campo label {
+    display: inline-block;
+    width: 6rem;
+    margin: 0.5rem 0;
+}
+textarea {
+    display: block;
+    width: 30%; 
+}
+input[type=submit], input[type=reset] {
+    display: block;
+    margin: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 2%;
+}
+
+input[type=reset] {
+    background-color: red;
+}
+
+.enviar {
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    display: block;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 2%;
+}
+
+/*TABLA*/
+@font-face {
+    font-family: breaking-bad;
+    src: url(../IMG/Breaking\ Bad.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.tamaño {
+    min-width: 100vw;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+.title {
+    font-size: 50px;
+    color: white;
+    position: relative;
+    display: inline-block;
+}
+.subtitle {
+    color: red;
+    font-size: 14px;
+    margin-left: -10px;
+}
+.br  {
+    display: inline-block;
+    background-color: #b5dc1c;; 
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.ba{
+    display: inline-block;
+    background-color: #b5dc1c;; 
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 215px;
+}
+
+.tabla-web{
+    text-align: center;
+    font-family: helvetica, arial, sans-serif;
+    background: #0c3e11 url(../IMG/cabecera.png);
+    background-repeat: no-repeat;
+    background-position: center top 2rem;
+    padding-top: 250px;
+}
+
+
+table {
+    background-color: #090907;
+    margin: auto; 
+    border: 5px solid transparent;
+    border-spacing: 5px;
+    margin: 1rem auto;
+    color: #0a0a08;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0px;
+    justify-content: space-between;
+    width: 75px;
+    height: 77px;
+}
+
+.t-name {
+    padding: 0px 2px;
+    width: 100%;
+}
+
+.xl-text {
+    font-size: 40px;
+    font-weight: bold;
+    color: #10100f;
+}
+
+.color1-walterwhite {
+    background: url('../IMG/Tabla Periódica/walterwhite.png');
+    background-repeat: no-repeat;
+    background-position: center 5px;
+    padding-top: 4.5rem;
+}
+
+.xs-text {
+    font-size: 10px;
+}
+
+
+
+.bg-img1 {
+    background: url("../IMG/Tabla Periódica/hankschrader.png");
+    background-size: cover; 
+    background-position: center;
+}
+
+.hc {
+    background: url("../IMG/Tabla Periódica/hectorsalamanca.png");
+}
+
+.ts {
+    background: url("../IMG/Tabla Periódica/tucosalamanca.png");
+}
+
+.gf {
+    background: url("../IMG/Tabla Periódica/gustavofrink.png");
+}
+
+.sw {
+    background: url("../IMG/Tabla Periódica/skylerwhite.png");    
+}
+
+.sa {
+    background: url("../IMG/Tabla Periódica/saulgoodman.png");
+}
+
+.jp {
+    background: url("../IMG/Tabla Periódica/jessiepinkman.png");
+}
+
+.gb {
+    background: url("../IMG/Tabla Periódica/gale.png");
+}
+
+.ms {
+    background: url("../IMG/Tabla Periódica/marieschrader.png");
+}
+
+.bd {
+    background: url("../IMG/Tabla Periódica/badger.png");
+}
+
+.me {
+    background: url("../IMG/Tabla Periódica/mike.png");
+}
+
+.w-img {
+    background-repeat: no-repeat;
+    background-position: center bottom 10px;
+    padding-bottom: 5.5rem;
+    background-size: 65px 77px;
+}
+
+
+.bus {
+    background: url("../IMG/Tabla Periódica/bus.png");
+    background-size: 98% auto;
+}
+
+.pistol {
+    background: url("../IMG/Tabla Periódica/pistola.png");
+    background-size: 102% auto;
+}
+
+.potion {
+    background: url("../IMG/Tabla Periódica/pocima.png");
+    background-size: 80% auto;
+}
+
+.movile {
+    background: url("../IMG/Tabla Periódica/movil.png");
+    background-size: 90% auto;
+}
+
+.fly {
+    background: url("../IMG/Tabla Periódica/mosca.png");
+    background-size: 95% auto;
+}
+
+.crystal {
+    background: url("../IMG/Tabla Periódica/cristal.png");
+    background-size: 65% auto;
+}
+
+.pizza {
+    background: url("../IMG/Tabla Periódica/pizza.png");
+    background-size: 90% auto;
+}
+
+.boxers {
+    background: url("../IMG/Tabla Periódica/calzoncillos.png");
+    background-size: 90% auto;
+}
+
+.mask {
+    background: url("../IMG/Tabla Periódica/mascara.png");
+    background-size: 85% auto;
+}
+
+.plate {
+    background: url("../IMG/Tabla Periódica/plato.png");
+    background-size: 85% auto;
+}
+
+
+
+.segunda-tabla td {
+    width: 75px;
+    height: 77px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.color1 {
+    background-color: #b5dc1c;
+}
+
+.color2 {
+    background-color: #8133da;
+}
+
+.color3 {
+    background-color: #f2f8cd;
+}
+
+.color4 {
+    background-color: #8aa416;
+}
+
+.color5 {
+    background-color: #637026;
+}
+
+.color6 {
+    background-color: #c5e249;
+}
+
+.color7 {
+    background-color: #bcc3a1;
+}
+
+.color8 {
+    background-color: #818d4d;
+}
+
+.color9 {
+    background-color: #d7e97c;
+}
+
+.t2-color {
+    background-color: #c5c724;
+}
+
+.t2-color img {
+    width: 100%;
+    max-height: 100%;
+}
+
